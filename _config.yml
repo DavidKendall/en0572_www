@@ -1,0 +1,23 @@
+markdown: redcarpet
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: pygments
+redcarpet:
+  extensions: [ "no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data" ]
+
+title: EN0572
+subtitle: Operating systems and concurrency
+authors: Michael Brockway, David Kendall, Alun Moon
+copyyears: 2010 - 2015
+url: http://localhost:4000
+raurl: http://localhost:4000/assets/ra
+
+links:
+#  - title: Example
+#    url: example.html
+
+right_links:
+  - title: View on GitHub
+    url: https://github.com/davidkendall/en0572
+
+repo: https://github.com/davidkendall/en0572
+

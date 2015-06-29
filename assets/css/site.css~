@@ -1,0 +1,65 @@
+.navbar {
+  margin-bottom: 0;
+}
+nav + p {
+  display: none;
+}
+.jumbotron {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Adding chapter, section and subsection */
+.page    { counter-reset: part; }
+.page h2 { counter-reset: chapter; }
+.page h3 { counter-reset: section; }
+.page h4 { counter-reset: subsection; }
+.page h2:before {
+    content: counter(part) ".";
+    counter-increment: part;
+}
+.page h3:before {
+    content: counter(part) "." counter(chapter) ".";
+    counter-increment: chapter;
+}
+.page h4:before {
+    content: counter(part) "." counter(chapter) "." counter(section) ".";
+    counter-increment: section;
+}
+.page h5:before {
+    content: counter(part) "." counter(chapter) "." counter(section) "." counter(subsection) ".";
+    counter-increment: subsection;
+}
+.page h2:before,
+.page h3:before,
+.page h4:before,
+.page h5:before {
+    margin-right: 0.75rem;
+}
+
+/* Table of Contents */
+body {
+  position: relative;
+}
+.toc.affix {
+  top: 0;
+}
+.toc>.nav>li {
+  border-left: solid 1px transparent;
+}
+.toc>.nav>li.active {
+  border-left-color: #2780e3;
+}
+.toc>.nav>li>a {
+  padding: 0;
+  color: inherit;
+}
+.toc>.nav>li.active>a {
+  font-weight: bold;
+  color: #2780e3;
+}
+.toc>.nav>li.level-h2>a { font-size: 15px; padding-left: 1.0em; margin-top: 0.5em; margin-bottom: 0.5em; }
+.toc>.nav>li.level-h3>a { font-size: 13px; padding-left: 1.5em; }
+.toc>.nav>li.level-h4>a { font-size: 13px; padding-left: 2em; }
+.toc>.nav>li.level-h5>a { font-size: 13px; padding-left: 2em; }
+.toc>.nav>li.level-h6>a { font-size: 13px; padding-left: 2em; }
