@@ -8,8 +8,10 @@ title: EN0572
 subtitle: Operating systems and concurrency
 authors: Michael Brockway, David Kendall, Alun Moon
 copyyears: 2010 - 2015
-url: http://hesabu.net/en0572
-raurl: http://hesabu.net/en0572/assets/ra
+# url: http://hesabu.net/en0572
+# raurl: http://hesabu.net/en0572/assets/ra
+url: http://localhost:4000
+raurl: http://localhost:4000/assets/ra
 
 links:
 #  - title: Example

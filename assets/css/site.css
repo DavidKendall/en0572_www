@@ -64,16 +64,3 @@ body {
 .toc>.nav>li.level-h5>a { font-size: 13px; padding-left: 2em; }
 .toc>.nav>li.level-h6>a { font-size: 13px; padding-left: 2em; }
 
-img.floatleft {
-  float: left;
-  margin-left: 0em;
-  margin-right: 1em;
-  margin-bottom: .5em;
-}
-
-img.floatright {
-  float: right;
-  margin-left: 1em;
-  margin-right: 2em;
-  margin-bottom: .5em;
-}

@@ -5,11 +5,9 @@ title: Home
 
 # Introduction
 
-<p>
-<img class="floatright"
-     src="assets/images/en572_image.png" 
-     alt="OS Image"
-     width="400"/>
+<div class="pull-right">
+  <img src="assets/images/en572_image.png" alt="OS Image" width="400"/>
+</div>
 
 This module introduces the application and implementation of operating
 systems and the use of concurrency in systems programming. It presents
@@ -19,7 +17,6 @@ OS. Students are given the opportunity to apply an OS in their own
 programs to solve a variety of problems. Additional topics such as
 memory management, file systems and security are required in the
 implementation of a full-scale OS and are investigated in this module.
-</p>
 
 Lectures are the main vehicle for introducing fundamental concepts and
 principles and for providing context and motivation. Students will be
@@ -100,18 +97,18 @@ change during the course of the module.
 
 | Week   | W/c   | Lecture A   | Lecture B   | Practical   |
 | :----: | :---: | :---------: | :---------: | :---------: |
-**1** | 22-Sep &nbsp; | [Introduction and overview]({{site.raurl}}/A01.pdf) &nbsp; | [Introduction/review of development tools/environment. Device drivers]({{site.raurl}}/B01.pdf) &nbsp; | [C Programming]({{site.raurl}}/L01.pdf)
-**2** | 29-Sep &nbsp; | [C programming for OS]({{site.raurl}}/A02.pdf) | [Interrupts and Interrupt Service Routines (ISR). Context switch]({{site.raurl}}/B02.pdf) &nbsp; | [Output device driver: LED]({{site.raurl}}/L02.pdf)
-**3** | 06-Oct &nbsp; | [Process concept]({{site.raurl}}/A03.pdf) &nbsp; | [LPC2378: Interrupts, Vectored Interrupt Controller (VIC), ISR implementation, Timers]({{site.raurl}}/B03.pdf) &nbsp; | [Input device driver: Buttons and joystick]({{site.raurl}}/L03.pdf)
-**4** | 13-Oct &nbsp; | [Process scheduling]({{site.raurl}}/A04.pdf) &nbsp; | [Introduction to uC/OS-II: tasks, delays, memory layout]({{site.raurl}}/B04.pdf) &nbsp; | [Installing an ISR and configuring a timer]({{site.raurl}}/L04.pdf)
-**5** | 20-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A05.pdf) &nbsp; | [Shared variable IPC; interference; race conditions; mutual exclusion]({{site.raurl}}/B05.pdf) &nbsp; | [uC/OS-II task creation and delay]({{site.raurl}}/L05.pdf)
-**6** | 27-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A06.pdf) &nbsp; | [Semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [uC/OS-II task priorities, mutual exclusion - busy waiting]({{site.raurl}}/L06.pdf)
-**7** | 03-Nov &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A07.pdf) &nbsp; | [Classical problems of synchronisation: producer/consumer, readers/writers]({{site.raurl}}/B07.pdf) &nbsp; | [mutual exclusion - semaphores]({{site.raurl}}/L07.pdf) <br/> Introduction to the assignment 
-**8** | 10-Nov &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A08.pdf) &nbsp; | [Deadlock, Starvation]({{site.raurl}}/B08.pdf) &nbsp; | [Bounded buffer]({{site.raurl}}/L08.pdf)
-**9** | 17-Nov &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A09.pdf) &nbsp; | [Priority inversion, mutexes]({{site.raurl}}/B09.pdf) &nbsp; | [Deadlock and starvation]({{site.raurl}}/L09.pdf)
-**10** | 24-Nov &nbsp; | [Protection and security&nbsp;2]({{site.raurl}}/A10.pdf) &nbsp; | [Monitors]({{site.raurl}}/B10.pdf) &nbsp; | Assignment reviews
-**11** | 01-Dec &nbsp; | [Linux overview&nbsp;1]({{site.raurl}}/A11.pdf) &nbsp; | [Mailboxes, message queues. ISR -> task communication. Timer services]({{site.raurl}}/B11.pdf) &nbsp; | Assignment support
-**12** | 08-Dec &nbsp; | [Linux overview&nbsp;2]({{site.raurl}}/A12.pdf) &nbsp; | [Memory management: implementation]({{site.raurl}}/B12.pdf) &nbsp; | Assignment demonstrations
+**1** | 21-Sep &nbsp; | [Introduction and overview]({{site.raurl}}/A01.pdf) &nbsp; | [Introduction/review of development tools/environment. Device drivers]({{site.raurl}}/B01.pdf) &nbsp; | [C Programming]({{site.raurl}}/L01.pdf)
+**2** | 28-Sep &nbsp; | [C programming for OS]({{site.raurl}}/A02.pdf) | [Interrupts and Interrupt Service Routines (ISR). Context switch]({{site.raurl}}/B02.pdf) &nbsp; | [Output device driver: LED]({{site.raurl}}/L02.pdf)
+**3** | 05-Oct &nbsp; | [Process concept]({{site.raurl}}/A03.pdf) &nbsp; | [LPC2378: Interrupts, Vectored Interrupt Controller (VIC), ISR implementation, Timers]({{site.raurl}}/B03.pdf) &nbsp; | [Input device driver: Buttons and joystick]({{site.raurl}}/L03.pdf)
+**4** | 12-Oct &nbsp; | [Process scheduling]({{site.raurl}}/A04.pdf) &nbsp; | [Introduction to uC/OS-II: tasks, delays, memory layout]({{site.raurl}}/B04.pdf) &nbsp; | [Installing an ISR and configuring a timer]({{site.raurl}}/L04.pdf)
+**5** | 19-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A05.pdf) &nbsp; | [Shared variable IPC; interference; race conditions; mutual exclusion]({{site.raurl}}/B05.pdf) &nbsp; | [uC/OS-II task creation and delay]({{site.raurl}}/L05.pdf)
+**6** | 26-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A06.pdf) &nbsp; | [Semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [uC/OS-II task priorities, mutual exclusion - busy waiting]({{site.raurl}}/L06.pdf)
+**7** | 02-Nov &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A07.pdf) &nbsp; | [Classical problems of synchronisation: producer/consumer, readers/writers]({{site.raurl}}/B07.pdf) &nbsp; | [Mutual exclusion - semaphores]({{site.raurl}}/L07.pdf) <br/> Introduction to the assignment 
+**8** | 09-Nov &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A08.pdf) &nbsp; | [Deadlock, Starvation]({{site.raurl}}/B08.pdf) &nbsp; | [Bounded buffer]({{site.raurl}}/L08.pdf)
+**9** | 16-Nov &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A09.pdf) &nbsp; | [Priority inversion, mutexes]({{site.raurl}}/B09.pdf) &nbsp; | [Deadlock and starvation]({{site.raurl}}/L09.pdf)
+**10** | 23-Nov &nbsp; | [Protection and security&nbsp;2]({{site.raurl}}/A10.pdf) &nbsp; | [Monitors]({{site.raurl}}/B10.pdf) &nbsp; | Assignment reviews
+**11** | 30-Nov &nbsp; | [Linux overview&nbsp;1]({{site.raurl}}/A11.pdf) &nbsp; | [Mailboxes, message queues. ISR -> task communication. Timer services]({{site.raurl}}/B11.pdf) &nbsp; | Assignment support
+**12** | 07-Dec &nbsp; | [Linux overview&nbsp;2]({{site.raurl}}/A12.pdf) &nbsp; | [Memory management: implementation]({{site.raurl}}/B12.pdf) &nbsp; | Assignment demonstrations
 
 <br/>
 In addition to the taught sessions, you are expected to undertake
@@ -141,44 +138,49 @@ for more formal feedback on summative assessment.
 # Recommended Reading
 
 There is no essential textbook for this module. [SGG14] is an
-excellent introduction to operating systems in general. [LAB08] gives
-full details of the uC/OS-II RTOS used in the module but is too
-expensive to recommend for individual purchase. The other recommended
-books and papers give useful information on parts of the syllabus
-only.
+excellent introduction to operating systems in general and can be used
+to supplement the slides for the Lecture A stream of the
+module. [LT10] gives full details of the uC/OS-III RTOS used in the
+module. It is available online to students. It is an excellent
+reference book for the OS used in the practical stream of the module. The
+other recommended books and papers give useful information on parts of
+the syllabus only.
 
 
 * **Books**
   - **[SGG14]** Silberschatz, A., Galvin, P., and Gagne,
 G., [Operating System Concepts Essentials](http://www.coursesmart.co.uk/9781118804926?__hdv=6.8&amp;__professorview=false&amp;__instructor=8439748&amp;__referringfirstname=David&amp;__referringlastname=Kendall&amp;__isreferringinstructor=true), John Wiley, 2nd edition, 2014, ISBN-13: 978-1-118-80492-6
 
+  - **[LT10]** Labrosse, J., Torres, F., [uC/OS-III The real-time kernel and the NXP LPC1700]({{site.raurl}}/100-uCOS-III-NXP-LPC1768-001.pdf), Micrium, 2010 <br/> A complete online text book for the uC/OS-III operating system for ARM Cortex-M microprocessors. The LPC1700 has an architecture that is completely compatible with LPC4088, the microprocessor used in this module.
+
+  - **[YIU13]** Yiu, J., [The Definitive Guide to the Cortex-M3 and Cortex-M4 Processors](http://www.amazon.co.uk/Definitive-Guide-Cortex-M3-Cortex-M4-Processors/dp/0124080820/ref=tmm_pap_title_0?ie=UTF8&qid=1435999633&sr=1-1), Newnes, 2013
+
   - **[DOW08]** Downey, A., [The Little Book of
 Semaphores](http://www.greenteapress.com/semaphores/) ([Local copy]({{site.raurl}}/downey08semaphores.pdf)), Green Tea Press, 2002 <br/> A free text book by Allen Downey that introduces a variety of interesting synchronisation
 problems and their solution using semaphores.
 
-
-  - **[LAB02]** Labrosse, J., [MicroC/OS-II The Real-Time Kernel](http://www.amazon.co.uk/MicroC-OS-II-Real-Time-Kernel/dp/1578201039/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1285423255&amp;sr=8-1) (2nd edition), Newnes, 2002 <br/> A good textbook that gives a detailed account of (an earlier version of) the
-real-time operating system used in this module. Too expensive to buy outright 
-but it would be a good idea to have access to it. The library has nine copies.
-It might cost about a tenner each between 3 or 4 of you to get hold of a copy.
-
-  - **[WOL08]** Wolf, W., [Computers as Components: Principles of Embedded Computing System Design](http://www.amazon.co.uk/Computers-Components-Principles-Computing-Architecture/dp/0123743974/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1285439399&amp;sr=1-1), Morgan Kaufmann, 2008 <br/>
-Nice overview of interrupts in Chapter 3 and of RTOS in Chapter 6.
 
 * **Papers**
   - **[SR04]**Stankovic, J. and Rajkumar, R., [Real-Time Operating Systems]({{site.raurl}}/SR04.pdf), Journal of Real-Time Systems, 28, 237-253, 2004
 
 # Resources
 
+* **Micrium**
+  - [Micrium Embedded Software](http://micrium.com) <br/> Micrium are the developers of the uC/OS-III operating system
+  - [uC/OS-III operating system]({{site.raurl}}/100-uCOS-III-NXP-LPC1768-001.pdf)
 * **LPC4088**
-  - [LPC408x/407x Product data sheet]({{site.raurl}}/LPC408X_7X.pdf)
-  - [LPC407x/408x Errata sheet]({{site.raurl}}/ES_LPC407X_8X.pdf)
-  - [LPC408x/407x User manual]({{site.raurl}}/UM10562.pdf)
   - [LPC4088 Quickstart Board](https://developer.mbed.org/users/embeddedartists/notebook/lpc4088-quickstart-board/)
   - [LPC4088 Quickstart Board Schematics RevB]({{site.raurl}}/LPC4088_QuickStart_Board_revB.pdf)
   - [LPC4088 Experiment Base Board Users' Guide]({{site.raurl}}/LPC4088_Experiment_BB_Users_Guide.pdf)
+  - [LPC4088 Experiment Base Board Schematics RevA]({{site.raurl}}/LPC4088_Experiment_Base_Board_revA.pdf)
   - [LCD Board Users' Guide]({{site.raurl}}/LCD_Board_Users_Guide.pdf)
-
+  - [LPC408x/407x User manual]({{site.raurl}}/UM10562.pdf)
+  - [LPC408x/407x Product data sheet]({{site.raurl}}/LPC408X_7X.pdf)
+  - [LPC407x/408x Errata sheet]({{site.raurl}}/ES_LPC407X_8X.pdf)
+  - [LPC4088FET208](http://www.nxp.com/products/microcontrollers/product_series/lpc4000/LPC4088FET208.html)
+  - [MMA7455 3-axis accelerometer data sheet]({{site.raurl}}/MMA7455L.pdf)
+  - [MMA7455 3-axis accelerometer application note]({{site.raurl}}/AN3468.pdf)
+  - [LM75 temperature sensor data sheet]({{site.raurl}}/LM75.pdf) 
 
 * **Programming in C**
   - **[KOC04]** Kochan, S., [Programming in C](http://www.amazon.co.uk/Programming-Developers-Library-Stephen-Kochan/dp/0672326663/ref=sr_1_5?ie=UTF8&amp;qid=1316089219&amp;sr=8-5), Sams, 2004 <br/>
@@ -193,6 +195,8 @@ An online course on C Programming from the University of Strathclyde.
   - [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm) <br/> A detailed introduction to C from the MIT Open Courseware catalogue. If you skip the material on data structures and concurrency, you're left
 with a good basic introduction to C. The data structures and concurrency 
 sections cover more advanced material. 
+  - [ARM Product Manuals](http://www.keil.com/arm/man/arm.htm) <br/>
+A jumping off point for references to the ARM development tools: compiler, assembler, linker, debugger etc.
 
 * **Miscellaneous**
   - [EE Times](http://www.eetimes.com/design/embedded) Embedded Design Centre for Electrical Engineers.
@@ -201,5 +205,7 @@ a variety of experts on embedded software.
   - [The Ganssle Group](http://www.ganssle.com/) Jack Ganssle's page has lots of useful embedded systems development information and links to other information sources.
   - [Sticky Bits](http://blog.feabhas.com/) Niall Cooling's blog
 on developing software for real-time and embedded systems.
+  - [Application Note: QP and ARM Cortex-M with ARM-KEIL]({{site.raurl}}/AN_QP_and_ARM-Cortex-M-ARM-KEIL.pdf)
+
 
 
