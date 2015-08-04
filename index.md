@@ -98,8 +98,8 @@ change during the course of the module.
 | Week   | W/c   | Lecture A   | Lecture B   | Practical   |
 | :----: | :---: | :---------: | :---------: | :---------: |
 **1** | 21-Sep &nbsp; | [Introduction and overview]({{site.raurl}}/A01.pdf) &nbsp; | [Introduction/review of development tools/environment. Device drivers]({{site.raurl}}/B01.pdf) &nbsp; | [C Programming]({{site.raurl}}/L01.pdf)
-**2** | 28-Sep &nbsp; | [C programming for OS]({{site.raurl}}/A02.pdf) | [Interrupts and Interrupt Service Routines (ISR). Context switch]({{site.raurl}}/B02.pdf) &nbsp; | [Output device driver: LED]({{site.raurl}}/L02.pdf)
-**3** | 05-Oct &nbsp; | [Process concept]({{site.raurl}}/A03.pdf) &nbsp; | [LPC2378: Interrupts, Vectored Interrupt Controller (VIC), ISR implementation, Timers]({{site.raurl}}/B03.pdf) &nbsp; | [Input device driver: Buttons and joystick]({{site.raurl}}/L03.pdf)
+**2** | 28-Sep &nbsp; | [C programming for OS]({{site.raurl}}/A02.pdf) | [Interrupts and Interrupt Service Routines (ISR). Context switch]({{site.raurl}}/B02.pdf) &nbsp; | [Output device driver: LED](L02.html)
+**3** | 05-Oct &nbsp; | [Process concept]({{site.raurl}}/A03.pdf) &nbsp; | [LPC2378: Interrupts, Vectored Interrupt Controller (VIC), ISR implementation, Timers]({{site.raurl}}/B03.pdf) &nbsp; | [Input device driver: Buttons and joystick](L03.html)
 **4** | 12-Oct &nbsp; | [Process scheduling]({{site.raurl}}/A04.pdf) &nbsp; | [Introduction to uC/OS-II: tasks, delays, memory layout]({{site.raurl}}/B04.pdf) &nbsp; | [Installing an ISR and configuring a timer]({{site.raurl}}/L04.pdf)
 **5** | 19-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A05.pdf) &nbsp; | [Shared variable IPC; interference; race conditions; mutual exclusion]({{site.raurl}}/B05.pdf) &nbsp; | [uC/OS-II task creation and delay]({{site.raurl}}/L05.pdf)
 **6** | 26-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A06.pdf) &nbsp; | [Semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [uC/OS-II task priorities, mutual exclusion - busy waiting]({{site.raurl}}/L06.pdf)
