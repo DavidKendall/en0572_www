@@ -13,7 +13,7 @@
 .gr { color: #FF0000 } /* Generic.Error */
 .gh { color: #003300; } /* Generic.Heading */
 .gi { background-color: #CCFFCC; border: 1px solid #00CC00 } /* Generic.Inserted */
-.go { color: #AAAAAA } /* Generic.Output */
+.go { color: inherit; } /* Generic.Output -- DK: was #AAAAAA*/
 .gp { color: #000099; } /* Generic.Prompt */
 .gs { } /* Generic.Strong */
 .gu { color: #003300; } /* Generic.Subheading */
@@ -64,3 +64,8 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
+
+.highlight pre code * { white-space: nowrap; }
+.highlight pre {overflow-x: auto; }
+.highlight pre code {white-space: pre; }
+
