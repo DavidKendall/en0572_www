@@ -65,7 +65,13 @@
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
 
-.highlight pre code * { white-space: nowrap; }
-.highlight pre {overflow-x: auto; }
-.highlight pre code {white-space: pre; }
+.highlight pre {
+  overflow-x: auto;
+}
+
+.highlight pre code {
+  word-wrap: normal;
+  overflow-wrap: normal;
+  white-space: pre;
+}
 
