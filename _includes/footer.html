@@ -1,3 +1,9 @@
+{% if page.title != "Home" %}
 <footer>
-  <p>&copy; {{site.copyyear}}, {{site.authors}}, All rights reserved.</p>
+  <p>
+    &copy; {{site.copyyear}}, {{site.authors}} and Northumbria University, <br/>
+    Code released under 
+    <a href="{{page.license}}">the MIT License</a>. 
+  </p>
 </footer>
+{% endif %}

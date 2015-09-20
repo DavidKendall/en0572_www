@@ -2,24 +2,33 @@ markdown: redcarpet
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 highlighter: pygments
 redcarpet:
-  extensions: [ "no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data" ]
+  extensions: [ "no_intra_emphasis", "fenced_code_blocks", disable_indented_code_blocks, "autolink", "tables", "with_toc_data" ]
 
 title: EN0572
 subtitle: Operating systems and concurrency
 authors: Michael Brockway, David Kendall, Alun Moon
 copyyear: 2015
-url: http://hesabu.net/en0572
-raurl: http://hesabu.net/en0572/assets/ra
-#url: http://localhost:4000
-#raurl: http://localhost:4000/assets/ra
+#url: http://hesabu.net/en0572
+#raurl: http://hesabu.net/en0572/assets/ra
+url: http://localhost:4000
+raurl: http://localhost:4000/assets/ra
 
 lab_links:
   - title: Lab 2 - Blinky
     url: L02.html
+    rep: blinky
   - title: Lab 3 - Buttons
     url: L03.html
-  - title: Lab 4 - Interrupts
+    rep: buttons
+  - title: Lab 4 - Interrupt
     url: L04.html
+    rep: interrupt
+  - title: Lab 5 - uCOS-II / Tasks
+    url: L05.html
+    rep: tasks
+  - title: Lab 6 - uCOS-II / Mutual Exclusion
+    url: L06.html
+    rep: peterson
 
 right_links:
   - title: View on GitHub

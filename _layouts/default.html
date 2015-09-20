@@ -11,11 +11,21 @@
       </div>
     </div>
 
-    <div class="container">
-      {{ content }}
-
+    <div class="container-fluid">
+      {% if page.title != "Home" %}
+      <div class="page-header">
+        <h1>{{ page.title }}</h1>
+      </div>
+      {% endif %}
+      <div class="row">
+        <div class="col-lg-9 col-md-10">
+          <div class="page">
+            {{ content }}
+          </div> <!-- end page -->
+        </div>   <!-- end col-lg-9 col-md-10 -->
+      </div>     <!-- end row -->
 {% include footer.html %}
-    </div>
+    </div>       <!-- end container-fluid -->
 
 <!--
     <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
