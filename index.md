@@ -23,6 +23,7 @@ memory management, file systems and security are required in the
 implementation of a full-scale OS and are investigated in this module.
 </p>
 
+
 Lectures are the main vehicle for introducing fundamental concepts and
 principles and for providing context and motivation. Students will be
 expected to prepare for lecture topics and deepen their understanding
@@ -31,6 +32,7 @@ literature. Seminars and laboratory sessions support the lecture
 programme by providing students with opportunities to identify and
 apply appropriate techniques for the application and implementation of
 a variety of OS services.
+
 
 Formative assessment will be provided in the form of small weekly
 exercises, mainly practical in nature and involving
@@ -45,6 +47,7 @@ coursework comprising a programming assignment and a short report.
 |Lecturer      | [Michael Brockway](http://computing.northumbria.ac.uk/staff/cgmb3)|
 |Lecturer      | [Alun Moon](http://computing.northumbria.ac.uk/staff/cgam1)|
 
+
 # Teaching Arrangements
 
 |   |    |
@@ -56,9 +59,11 @@ coursework comprising a programming assignment and a short report.
 **Lab/Seminar**       | Thu 09.00 - 11.00 PB S2 
 **Lab/Seminar**       | Thu 16.00 - 18.00 PB S2 
 
->You should attend *both* lecture sessions and *one* of the
->lab/seminar sessions every week. Refer to your personal timetable to identify
->the lab session that you should attend.
+<p class="text-info">
+You should attend <em>both</em> lecture sessions and <em>one</em> of the
+lab/seminar sessions every week. Refer to your personal timetable to identify
+the lab session that you should attend.
+</p>
 
 # Synopsis
 
@@ -119,12 +124,14 @@ that material.
 **12** | 07-Dec &nbsp; | [Linux overview&nbsp;2]({{site.raurl}}/A12.pdf) &nbsp; | [Memory management: implementation]({{site.raurl}}/B12.pdf) &nbsp; | Assignment demonstrations
 
 <br/>
->In addition to the taught sessions, you are expected to undertake
->independent and directed learning. This is a 20-credit module, for
->which the expected student workload is 200 hours. Over the course of a
->15-week semester, you should be spending about 13 hours per week on
->this module.
 
+<p class="text-info">
+In addition to the taught sessions, you are expected to undertake
+independent and directed learning. This is a 20-credit module, for
+which the expected student workload is 200 hours. Over the course of a
+15-week semester, you should be spending about 13 hours per week on
+this module.
+</p>
 
 # Assessment
 
