@@ -13,9 +13,8 @@ and illustrates their implementation using a simple, modern
 OS.
 </p>
 
-<div class="pull-right">
-<img src="assets/images/en0572_image.png" alt="EN0572 tools" class="img-responsive" width="70%"/>
-</div>
+<img src="assets/images/en0572_image.png" alt="EN0572 tools" class="img-responsive center-block"/>
+
 
 Students are given the opportunity to apply an OS in their own
 programs to solve a variety of problems. Additional topics such as
@@ -112,7 +111,7 @@ that material.
 | :----: | :---: | :---------: | :---------: | :---------: |
 **1** | 21-Sep &nbsp; | [Introduction and overview]({{site.raurl}}/A01.pdf) &nbsp; | [Introduction/review of development tools/environment. Device drivers]({{site.raurl}}/B01.pdf) &nbsp; | [C Programming]({{site.raurl}}/L01.pdf)
 **2** | 28-Sep &nbsp; | [C programming for OS]({{site.raurl}}/A02.pdf) | [Interrupts and Interrupt Service Routines (ISR). Context switch]({{site.raurl}}/B02.pdf) &nbsp; | [Output device driver: LED](L02.html)
-**3** | 05-Oct &nbsp; | [Process concept]({{site.raurl}}/A03.pdf) &nbsp; | [LPC2378: Interrupts, Vectored Interrupt Controller (VIC), ISR implementation, Timers]({{site.raurl}}/B03.pdf) &nbsp; | [Input device driver: Buttons and joystick](L03.html)
+**3** | 05-Oct &nbsp; | [Process concept]({{site.raurl}}/A03.pdf) &nbsp; | [LPC4088: Interrupts, Nested Vectored Interrupt Controller (NVIC), ISR implementation, Timers]({{site.raurl}}/B03.pdf) &nbsp; | [Input device driver: Buttons and joystick](L03.html)
 **4** | 12-Oct &nbsp; | [Process scheduling]({{site.raurl}}/A04.pdf) &nbsp; | [Introduction to uC/OS-II: tasks, delays, memory layout]({{site.raurl}}/B04.pdf) &nbsp; | [Interrupt generation and handling: Timers](L04.html)
 **5** | 19-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A05.pdf) &nbsp; | [Shared variable IPC; interference; race conditions; mutual exclusion]({{site.raurl}}/B05.pdf) &nbsp; | [uC/OS-II task creation and delay](L05.html)
 **6** | 26-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A06.pdf) &nbsp; | [Semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [uC/OS-II task priorities, mutual exclusion - busy waiting](L06.html)
@@ -168,6 +167,8 @@ G., [Operating System Concepts Essentials](http://www.coursesmart.co.uk/97811188
 
   - **[LAB02]** Labrosse, J., [MicroC/OS-II The real-time kernel]({{site.raurl}}/100-uC-OS-II-002.pdf), CMP Books, 2002 <br/> A complete online text book for the uC/OS-II operating system. 
 
+  - **[MAR13]** Martin, T. [The Designer's Guide to the Cortex-M Processor Family: A Tutorial Approach](http://capitadiscovery.co.uk/northumbria-ac/items/1768388), Newnes, 2013
+
   - **[YIU13]** Yiu, J., [The Definitive Guide to the Cortex-M3 and Cortex-M4 Processors](http://www.amazon.co.uk/Definitive-Guide-Cortex-M3-Cortex-M4-Processors/dp/0124080820/ref=tmm_pap_title_0?ie=UTF8&qid=1435999633&sr=1-1), Newnes, 2013
 
   - **[DOW08]** Downey, A., [The Little Book of
@@ -191,11 +192,16 @@ problems and their solution using semaphores.
   - [LPC408x/407x Product data sheet]({{site.raurl}}/LPC408X_7X.pdf)
   - [LPC407x/408x Errata sheet]({{site.raurl}}/ES_LPC407X_8X.pdf)
   - [LPC4088FET208](http://www.nxp.com/products/microcontrollers/product_series/lpc4000/LPC4088FET208.html)
+  - [Cortex-M4 Devices: Generic User Guide]({{site.raurl}}/DUI0553A_cortex_m4_dgug.pdf)
   - [LCD Module data sheet]({{site.raurl}}/RX043A-0204.pdf)
   - [MMA7455 3-axis accelerometer data sheet]({{site.raurl}}/MMA7455L.pdf)
   - [MMA7455 3-axis accelerometer application note]({{site.raurl}}/AN3468.pdf)
   - [LM75 temperature sensor data sheet]({{site.raurl}}/LM75.pdf) 
   - [AR1021 resistive touch sensor data sheet]({{site.raurl}}/41393B.pdf)
+* **ARM mbed**
+  - [mbed SDK](https://developer.mbed.org/handbook/mbed-SDK)
+  - [Using the mbed libraries](https://developer.mbed.org/handbook/Homepage#using-mbed-libraries)
+  - [mbed and LPC4088 Quickstart Board](https://developer.mbed.org/users/embeddedartists/notebook/lpc4088-quickstart-board/)
 * **Programming in C/C++**
   - **[KOC04]** Kochan, S., [Programming in C](http://www.amazon.co.uk/Programming-Developers-Library-Stephen-Kochan/dp/0672326663/ref=sr_1_5?ie=UTF8&amp;qid=1316089219&amp;sr=8-5), Sams, 2004 <br/>
 A gentle introduction to programming in C. I think it's a better starting
@@ -206,6 +212,8 @@ A concise C reference. Very cheap. Less than a fiver the last time I
 looked. I suggest you buy a copy and read it from cover to cover.
   - **[LOU03]** Loudon, K., [C++ Pocket Reference](http://www.amazon.co.uk/C-Pocket-Reference-Kyle-Loudon/dp/0596004966/ref=sr_1_7?ie=UTF8&qid=1442419113&sr=8-7&keywords=c%2B%2B), O'Reilly, 2003 <br/>
 You only need to know a little C++ for this module and this little book provides more than enough information.
+  - [Essential C](http://cslibrary.stanford.edu/101/EssentialC.pdf), Parlante, N, Stanford University, 2003 <br/>
+A very good summary of the basic features of the C language.
   - [C Programming](http://www2.its.strath.ac.uk/courses/c/) <br/>
 An online course on C Programming from the University of Strathclyde.
   - [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm) <br/> A detailed introduction to C from the MIT Open Courseware catalogue. If you skip the material on data structures and concurrency, you're left
@@ -222,7 +230,6 @@ a variety of experts on embedded software.
   - [The Ganssle Group](http://www.ganssle.com/) Jack Ganssle's page has lots of useful embedded systems development information and links to other information sources.
   - [Sticky Bits](http://blog.feabhas.com/) Niall Cooling's blog
 on developing software for real-time and embedded systems.
-  - [Application Note: QP and ARM Cortex-M with ARM-KEIL]({{site.raurl}}/AN_QP_and_ARM-Cortex-M-ARM-KEIL.pdf)
 
 
 
