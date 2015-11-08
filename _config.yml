@@ -32,6 +32,10 @@ lab_links:
   - title: Lab 7 - uCOS-II / Semaphores
     url: L07.html
     rep: semaphore
+  - title: Lab 8 - uCOS-II / Ring Buffer
+    url: L08.html
+    rep: ringbuffer
+  
 
 right_links:
   - title: View on GitHub
