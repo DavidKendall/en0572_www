@@ -35,6 +35,9 @@ lab_links:
   - title: Lab 8 - uCOS-II / Ring Buffer
     url: L08.html
     rep: ringbuffer
+  - title: Lab 9 - uCOS-II / Deadlock and starvation
+    url: L09.html
+    rep: deadlock
   
 
 right_links:
