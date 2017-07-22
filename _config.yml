@@ -1,15 +1,16 @@
 markdown: redcarpet
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-highlighter: pygments
+highlighter: rouge
 redcarpet:
   extensions: [ "no_intra_emphasis", "fenced_code_blocks", disable_indented_code_blocks, "autolink", "tables", "with_toc_data" ]
 
 title: EN0572
 subtitle: Operating systems and concurrency
 authors: Michael Brockway, David Kendall, Alun Moon
-copyyear: 2015
+copyyear: 2015-2016
 url: http://hesabu.net/en0572
 raurl: http://hesabu.net/en0572/assets/ra
+rraurl: http://cgweb1.northumbria.ac.uk/SubjectAreaResources/en0572/assets/ra
 #url: http://localhost:4000
 #raurl: http://localhost:4000/assets/ra
 

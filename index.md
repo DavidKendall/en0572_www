@@ -20,8 +20,6 @@ Students are given the opportunity to apply an OS in their own
 programs to solve a variety of problems. Additional topics such as
 memory management, file systems and security are required in the
 implementation of a full-scale OS and are investigated in this module.
-</p>
-
 
 Lectures are the main vehicle for introducing fundamental concepts and
 principles and for providing context and motivation. Students will be
@@ -45,18 +43,21 @@ coursework comprising a programming assignment and a short report.
 |Module Tutor &nbsp;  | [David Kendall](http://computing.northumbria.ac.uk/staff/cgdk2)|
 |Lecturer      | [Michael Brockway](http://computing.northumbria.ac.uk/staff/cgmb3)|
 |Lecturer      | [Alun Moon](http://computing.northumbria.ac.uk/staff/cgam1)|
+|TA      | [Ranjith Dinakaran](mailto:ranjith.dinakaran@northumbria.ac.uk)
+
 
 
 # Teaching Arrangements
 
 |   |    |
 |---|:---|
-**Lecture (Block A)** &nbsp;| Tue 13.00 - 14.00 EB E004
-**Lecture (Block B)** | Mon 10.00 - 11.00 NB 252 
-**Lab/Seminar**       | Mon 15.00 - 17.00 PB S2 
-**Lab/Seminar**       | Tue 16.00 - 18.00 PB S2 
-**Lab/Seminar**       | Thu 09.00 - 11.00 PB S2 
-**Lab/Seminar**       | Thu 16.00 - 18.00 PB S2 
+**Lecture (Block A)** &nbsp;| Wed 10.00 - 11.00 EB B0001
+**Lecture (Block B)** | Tue 12.00 - 13.00 EB B0001
+**Lab/Seminar**       | Mon 13.00 - 15.00 PB S2
+**Lab/Seminar**       | Thu 15.00 - 17.00 PB S2
+**Lab/Seminar**       | Fri 09.00 - 11.00 PB S2
+**Lab/Seminar**       | Fri 11.00 - 13.00 PB S2
+**Lab/Seminar**       | Fri 13.00 - 15.00 PB S2
 
 <p class="text-info">
 You should attend <em>both</em> lecture sessions and <em>one</em> of the
@@ -99,28 +100,23 @@ programming techniques.
 
 The following is a *provisional* guide to the organisation of
 this part of the module for this year. These arrangements are subject to
-change during the course of the module. This is especially true this year
-(2015/16) since we are introducing new, state-of-the-art lab equipment, based
-on the NXP LPC4088 ARM Cortex M4 microcontroller. You can expect that all
-references to the LPC2378 will be superseded by the time that we reach 
-that material.  
-
+change during the course of the module. 
 
 
 | Week   | W/c   | Lecture A   | Lecture B   | Practical   |
 | :----: | :---: | :---------: | :---------: | :---------: |
-**1** | 21-Sep &nbsp; | [Introduction and overview]({{site.raurl}}/A01.pdf) &nbsp; | [Introduction/review of development tools/environment. Device drivers]({{site.raurl}}/B01.pdf) &nbsp; | [C Programming]({{site.raurl}}/L01.pdf)
-**2** | 28-Sep &nbsp; | [C programming for OS]({{site.raurl}}/A02.pdf) | [Interrupts and Interrupt Service Routines (ISR). Context switch]({{site.raurl}}/B02.pdf) &nbsp; | [Output device driver: LED](L02.html)
-**3** | 05-Oct &nbsp; | [Process concept]({{site.raurl}}/A03.pdf) &nbsp; | [LPC4088: Interrupts, Nested Vectored Interrupt Controller (NVIC), ISR implementation, Timers]({{site.raurl}}/B03.pdf) &nbsp; | [Input device driver: Buttons and joystick](L03.html)
-**4** | 12-Oct &nbsp; | [Process scheduling]({{site.raurl}}/A04.pdf) &nbsp; | [Introduction to uC/OS-II: tasks, delays, memory layout]({{site.raurl}}/B04.pdf) &nbsp; | [Interrupt generation and handling: Timers](L04.html)
-**5** | 19-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A05.pdf) &nbsp; | [Shared variable IPC; interference; race conditions; mutual exclusion]({{site.raurl}}/B05.pdf) &nbsp; | [uC/OS-II task creation and delay](L05.html)
-**6** | 26-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A06.pdf) &nbsp; | [Semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [uC/OS-II task priorities, mutual exclusion - busy waiting](L06.html)
-**7** | 02-Nov &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A07.pdf) &nbsp; | [Classical problems of synchronisation: producer/consumer, readers/writers]({{site.raurl}}/B07.pdf) &nbsp; | [Mutual exclusion - semaphores](L07.html) <br/> Introduction to the assignment 
-**8** | 09-Nov &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A08.pdf) &nbsp; | [Deadlock, Starvation]({{site.raurl}}/B08.pdf) &nbsp; | [Ring buffer](L08.html)
-**9** | 16-Nov &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A09.pdf) &nbsp; | [Priority inversion, mutexes]({{site.raurl}}/B09.pdf) &nbsp; | [Deadlock and starvation](L09.html)
-**10** | 23-Nov &nbsp; | [Protection and security&nbsp;2]({{site.raurl}}/A10.pdf) &nbsp; | [Monitors]({{site.raurl}}/B10.pdf) &nbsp; | Assignment reviews
-**11** | 30-Nov &nbsp; | [Linux overview&nbsp;1]({{site.raurl}}/A11.pdf) &nbsp; | [Mailboxes, message queues. ISR -> task communication. Timer services]({{site.raurl}}/B11.pdf) &nbsp; | Assignment support
-**12** | 07-Dec &nbsp; | [Linux overview&nbsp;2]({{site.raurl}}/A12.pdf) &nbsp; | [Memory management: implementation]({{site.raurl}}/B12.pdf) &nbsp; | Assignment demonstrations
+**1** | 19-Sep &nbsp; | [Introduction and overview]({{site.raurl}}/A01.pdf) &nbsp; | [Introduction/review of development tools/environment. Device drivers]({{site.raurl}}/B01.pdf) &nbsp; | [C Programming]({{site.raurl}}/L01.pdf)
+**2** | 26-Sep &nbsp; | [C programming for OS]({{site.raurl}}/A02.pdf) | [Interrupts and Interrupt Service Routines (ISR). Context switch]({{site.raurl}}/B02.pdf) &nbsp; | [Output device driver: LED](L02.html)
+**3** | 03-Oct &nbsp; | [Process concept]({{site.raurl}}/A03.pdf) &nbsp; | [LPC4088: Interrupts, Nested Vectored Interrupt Controller (NVIC), ISR implementation, Timers]({{site.raurl}}/B03.pdf) &nbsp; | [Input device driver: Buttons and joystick](L03.html)
+**4** | 10-Oct &nbsp; | [Process scheduling]({{site.raurl}}/A04.pdf) &nbsp; | [Introduction to uC/OS-II: tasks, delays, memory layout]({{site.raurl}}/B04.pdf) &nbsp; | [Interrupt generation and handling: Timers](L04.html)
+**5** | 17-Oct &nbsp; | [Memory management&nbsp;1]({{site.raurl}}/A05.pdf) &nbsp; | [Shared variable IPC; interference; race conditions; mutual exclusion]({{site.raurl}}/B05.pdf) &nbsp; | [uC/OS-II task creation and delay](L05.html)
+**6** | 24-Oct &nbsp; | [Memory management&nbsp;2]({{site.raurl}}/A06.pdf) &nbsp; | [Semaphores]({{site.raurl}}/B06.pdf) &nbsp; | [uC/OS-II task priorities, mutual exclusion - busy waiting](L06.html)
+**7** | 31-Oct &nbsp; | [Storage management&nbsp;1]({{site.raurl}}/A07.pdf) &nbsp; | [Classical problems of synchronisation: producer/consumer, readers/writers]({{site.raurl}}/B07.pdf) &nbsp; | [Mutual exclusion - semaphores](L07.html) <br/> Introduction to the assignment
+**8** | 07-Nov &nbsp; | [Storage management&nbsp;2]({{site.raurl}}/A08.pdf) &nbsp; | [Deadlock, Starvation]({{site.raurl}}/B08.pdf) &nbsp; | [Ring buffer](L08.html)
+**9** | 14-Nov &nbsp; | [Protection and security&nbsp;1]({{site.raurl}}/A09.pdf) &nbsp; | [Priority inversion, mutexes]({{site.raurl}}/B09.pdf) &nbsp; | [Deadlock and starvation](L09.html)
+**10** | 21-Nov &nbsp; | [Protection and security&nbsp;2]({{site.raurl}}/A10.pdf) &nbsp; | [Monitors]({{site.raurl}}/B10.pdf) &nbsp; | Assignment reviews
+**11** | 28-Nov &nbsp; | [Linux overview&nbsp;1]({{site.raurl}}/A11.pdf) &nbsp; | [Mailboxes, message queues. ISR -> task communication. Timer services]({{site.raurl}}/B11.pdf) &nbsp; | Assignment support
+**12** | 05_Dec &nbsp; | [Linux overview&nbsp;2]({{site.raurl}}/A12.pdf) &nbsp; | [Memory management: implementation]({{site.raurl}}/B12.pdf) &nbsp; | Assignment demonstrations
 
 <br/>
 
@@ -137,9 +133,11 @@ this module.
 Summative assessment comprises:
 
 * a single course work assignment undertaken in the last 4/5 weeks of
-the module; students will be required to implement a simple embedded
-application, making use of operating system services, and to report
-on possible extensions to, and issues raised by, their work. <br/> <br/>
+the module; students will be required to:
+  + implement a simple embedded application, making use of operating system services,
+  + to report on possible extensions to, and issues raised by, their work,
+  + and to discuss relevant underlying OS theory. <br/> <br/>
+
 <a class="btn btn-large btn-primary" href="{{site.raurl}}/assgn.pdf"><i class="icon-upload-alt"></i>Download Assignment Specification</a>
 
 Formative assessment comprises a variety of theoretical and practical
@@ -147,28 +145,30 @@ exercises with opportunities for discussion with tutors and
 colleagues.
 
 Feedback on formative assessment will be given during the seminar and
-laboratory sessions. Additionally the eLearning Portal will be used
+laboratory sessions. Additionally, email will be used
 for more formal feedback on summative assessment.
 
 # Recommended Reading
 
-There is no essential textbook for this module. [SGG14] is an
-excellent introduction to operating systems in general and can be used
-to supplement the slides for the Lecture A stream of the
-module. [LAB02] gives full details of the uC/OS-II RTOS used in the
-module. It is available online to students. It is an excellent
-reference book for the OS used in the practical stream of the module. The
-other recommended books and papers give useful information on parts of
-the syllabus only.
+There is no essential textbook for this module. [SGG14] is an excellent
+introduction to operating systems in general and can be used to supplement the
+slides for the Lecture A stream of the module. [A-D15] also covers much of this
+material and has the advantage of being available *free online*.  [LAB02] gives
+full details of the uC/OS-II RTOS used in the module. It is available online to
+students. It is an excellent reference book for the OS used in the practical
+stream of the module. The other recommended books and papers give useful
+information on parts of the syllabus only.
 
 
 * **Books**
   - **[SGG14]** Silberschatz, A., Galvin, P., and Gagne,
 G., [Operating System Concepts Essentials](http://www.coursesmart.co.uk/9781118804926?__hdv=6.8&amp;__professorview=false&amp;__instructor=8439748&amp;__referringfirstname=David&amp;__referringlastname=Kendall&amp;__isreferringinstructor=true), John Wiley, 2nd edition, 2014, ISBN-13: 978-1-118-80492-6
 
-  - **[LAB02]** Labrosse, J., [MicroC/OS-II The real-time kernel]({{site.raurl}}/100-uC-OS-II-002.pdf), CMP Books, 2002 <br/> A complete online text book for the uC/OS-II operating system. 
+  - **[A-D15]** Arpaci-Dusseau, R. and Arpaci-Dusseau, A., [Operating systems: Three easy pieces](http://www.ostep.org), Arpaci-Dusseau Books, 2015
 
-  - **[MAR13]** Martin, T. [The Designer's Guide to the Cortex-M Processor Family: A Tutorial Approach](http://capitadiscovery.co.uk/northumbria-ac/items/1768388), Newnes, 2013
+  - **[LAB02]** Labrosse, J., [MicroC/OS-II The real-time kernel](https://doc.micrium.com/download/attachments/10753158/100-uC-OS-II-003.pdf?version=1&modificationDate=1436980916000&api=v2), CMP Books, 2002 <br/> A complete online text book for the uC/OS-II operating system.
+
+  - **[MAR13]** Martin, T. [The Designer's Guide to the Cortex-M Processor Family: A Tutorial Approach](https://librarysearch.northumbria.ac.uk/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=44UON_ALMA5137082930003181&indx=3&recIds=44UON_ALMA5137082930003181&recIdxs=2&elementId=2&renderMode=poppedOut&displayMode=full&frbrVersion=3&frbg=&pcAvailabiltyMode=false&&dscnt=0&scp.scps=scope%3A%2844UON_ALMA%29%2CEbscoLocal_44UON%2Cprimo_central_multiple_fe&mode=Basic&vid=northumbria&srt=rank&tab=default_tab&dum=true&vl(freeText0)=trevor%20martin%20cortex%20m&dstmp=1475445940996), Newnes, 2013
 
   - **[YIU13]** Yiu, J., [The Definitive Guide to the Cortex-M3 and Cortex-M4 Processors](http://www.amazon.co.uk/Definitive-Guide-Cortex-M3-Cortex-M4-Processors/dp/0124080820/ref=tmm_pap_title_0?ie=UTF8&qid=1435999633&sr=1-1), Newnes, 2013
 
@@ -178,7 +178,7 @@ problems and their solution using semaphores.
 
 
 * **Papers**
-  - **[SR04]**Stankovic, J. and Rajkumar, R., [Real-Time Operating Systems]({{site.raurl}}/SR04.pdf), Journal of Real-Time Systems, 28, 237-253, 2004
+  - **[SR04]**Stankovic, J. and Rajkumar, R., [Real-Time Operating Systems]({{site.rraurl}}/SR04.pdf), Journal of Real-Time Systems, 28, 237-253, 2004
 
 # Resources
 
@@ -197,12 +197,13 @@ problems and their solution using semaphores.
   - [LCD Module data sheet]({{site.raurl}}/RX043A-0204.pdf)
   - [MMA7455 3-axis accelerometer data sheet]({{site.raurl}}/MMA7455L.pdf)
   - [MMA7455 3-axis accelerometer application note]({{site.raurl}}/AN3468.pdf)
-  - [LM75 temperature sensor data sheet]({{site.raurl}}/LM75.pdf) 
+  - [LM75 temperature sensor data sheet]({{site.raurl}}/LM75.pdf)
   - [AR1021 resistive touch sensor data sheet]({{site.raurl}}/41393B.pdf)
 * **ARM mbed**
   - [mbed SDK](https://developer.mbed.org/handbook/mbed-SDK)
   - [Using the mbed libraries](https://developer.mbed.org/handbook/Homepage#using-mbed-libraries)
   - [mbed and LPC4088 Quickstart Board](https://developer.mbed.org/users/embeddedartists/notebook/lpc4088-quickstart-board/)
+  - [Installing the Keil MDK tools](keil.html)
 * **Programming in C/C++**
   - **[KOC04]** Kochan, S., [Programming in C](http://www.amazon.co.uk/Programming-Developers-Library-Stephen-Kochan/dp/0672326663/ref=sr_1_5?ie=UTF8&amp;qid=1316089219&amp;sr=8-5), Sams, 2004 <br/>
 A gentle introduction to programming in C. I think it's a better starting
@@ -215,22 +216,35 @@ looked. I suggest you buy a copy and read it from cover to cover.
 You only need to know a little C++ for this module and this little book provides more than enough information.
   - [Essential C](http://cslibrary.stanford.edu/101/EssentialC.pdf), Parlante, N, Stanford University, 2003 <br/>
 A very good summary of the basic features of the C language.
-  - [C Programming](http://www2.its.strath.ac.uk/courses/c/) <br/>
+  - [Learn C Programming](http://tutorialspoint.com/cprogramming/) <br/> A nice online C programming tutorial site.
+  - [C Programming](http://www.imada.sdu.dk/~svalle/courses/dm14-2005/mirror/c/) <br/>
 An online course on C Programming from the University of Strathclyde.
   - [Practical Programming in C](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm) <br/> A detailed introduction to C from the MIT Open Courseware catalogue. If you skip the material on data structures and concurrency, you're left
-with a good basic introduction to C. The data structures and concurrency 
-sections cover more advanced material. 
+with a good basic introduction to C. The data structures and concurrency
+sections cover more advanced material.
   - [ARM Product Manuals](http://www.keil.com/arm/man/arm.htm) <br/>
 A jumping off point for references to the ARM development tools: compiler, assembler, linker, debugger etc.
-
+* **Git** 
+  - [Git home page](https://git-scm.com)
+  - [Git official documentation](https://git-scm.com/doc)
+  - [Good resources for learning Git and Github](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
+  - [15-minute tutorial in your browser](https://try.github.io)
+  - [Video introduction](https://git-scm.com/videos)
+  - [Student developer pack](https://education.github.com/pack) <br/> Get free
+    stuff from GitHub Education, including a GitHub account with unlimited
+    private repositories (normally 7$/month)
 * **Miscellaneous**
-  - [Adafruit GFX Graphics Library](https://learn.adafruit.com/adafruit-gfx-graphics-library?view=all)
-  - [EE Times](http://www.eetimes.com/design/embedded) Embedded Design Centre for Electrical Engineers.
-  - [Embedded Gurus](http://embeddedgurus.com/) A blog from
-a variety of experts on embedded software.
-  - [The Ganssle Group](http://www.ganssle.com/) Jack Ganssle's page has lots of useful embedded systems development information and links to other information sources.
-  - [Sticky Bits](http://blog.feabhas.com/) Niall Cooling's blog
-on developing software for real-time and embedded systems.
+  - [Adafruit GFX Graphics
+    Library](https://learn.adafruit.com/adafruit-gfx-graphics-library?view=all)
+  - [EE Times](http://www.eetimes.com/design/embedded) Embedded Design Centre
+    for Electrical Engineers.
+  - [Embedded Gurus](http://embeddedgurus.com/) A blog from a variety of
+    experts on embedded software.
+  - [The Ganssle Group](http://www.ganssle.com/) Jack Ganssle's page has lots
+    of useful embedded systems development information and links to other
+    information sources.
+  - [Sticky Bits](http://blog.feabhas.com/) Niall Cooling's blog on developing
+    software for real-time and embedded systems.
 
 
 
